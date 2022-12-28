@@ -47,12 +47,6 @@ async def start(client, message):
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
-        ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/TN68_Linkzz')
-        ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/@voiceofmalikoffl')
-        ],[
         InlineKeyboardButton("📝Admin-TG", url='https://t.me/mrmalik_offl'),
         InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/mrmalikoffl')
         ]
