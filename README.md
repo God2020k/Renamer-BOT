@@ -31,7 +31,7 @@
 <details><summary>🔥 Deploy To Koyeb 🔥</summary>
 <p>
 <br>                 
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT&branch=main&name=lazy-gangster-baby" >
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/mrmalikoffl/Gangster-Baby-Renamer-BOT&branch=main&name=lazy-gangster-baby" >
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -40,7 +40,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT">
+<a href="https://heroku.com/deploy?template=https://github.com/mrmalikoffl/Gangster-Baby-Renamer-BOT">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
