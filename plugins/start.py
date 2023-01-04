@@ -110,30 +110,6 @@ async def cb_handler(client, query: CallbackQuery):
         ]
                 )
             )
-         @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
-async def upgrade(bot, update):
-    # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/upgrade")
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.UPGRADE_TEXT,
-        parse_mode="html",
-        reply_to_message_id=update.message_id,
-        disable_web_page_preview=True
-    )
-@pyrogram.Client.on_message(pyrogram.Filters.command(["donate"]))
-async def donate(bot, update):
-       await bot.send_message(
-             chat_id=update.chat.id,
-             text="I am very happy to listen you this word, making of this bot take lot of work and time so please donate by pressing this button present below",
-             reply_markup=InlineKeyboardMarkup(
-             [
-               [
-                 InlineKeyboardButton('Donate 💰', url='http://paypal.me/maheshmalekar')
-               ]
-             ]
-           )
-          )
     elif data == "help":
         await query.message.edit_text(
             text=mr.HELP_TXT,
