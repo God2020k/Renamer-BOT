@@ -110,21 +110,7 @@ async def cb_handler(client, query: CallbackQuery):
         ]
                 )
             )
-    elif data == "help":
-        await query.message.edit_text(
-            text=mr.HELP_TXT,
-            reply_markup=InlineKeyboardMarkup( [[
-               #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://www.instagram.com/mrmalikoffl")
-               ],[
-               InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_Linkzz")
-               ],[
-               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
-               ]]
-            )
-        )
-        @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
+         @pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
 async def upgrade(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/upgrade")
@@ -149,6 +135,20 @@ async def donate(bot, update):
              ]
            )
           )
+    elif data == "help":
+        await query.message.edit_text(
+            text=mr.HELP_TXT,
+            reply_markup=InlineKeyboardMarkup( [[
+               #⚠️ don't change source code & source link ⚠️ #
+               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://www.instagram.com/mrmalikoffl")
+               ],[
+               InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_Linkzz")
+               ],[
+               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
+               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
+               ]]
+            )
+        )
     elif data == "about":
         await query.message.edit_text(
             text=mr.ABOUT_TXT.format(client.mention),
