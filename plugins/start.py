@@ -41,8 +41,8 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Msrenamerproteam'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/Msrenamerproteam')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
@@ -94,13 +94,13 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/Msrenamerproteam'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/Msrenamerproteam')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("🎬 Join My Official Channel 🎬", url='https://t.me/TN68_Linkzz')
+        InlineKeyboardButton("🎬 Join My Official Channel 🎬", url='https://t.me/TN68_FilmFactory')
         ],[
         InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/@voiceofmalikoffl')
         ],[
@@ -117,7 +117,7 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://www.instagram.com/mrmalikoffl")
                ],[
-               InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_Linkzz")
+               InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -132,7 +132,7 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/mrmalikoffl")
                ],[
-                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_Linkzz")
+                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -146,7 +146,7 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/mrmalikoffl")
                ],[
-                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_Linkzz")
+                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
