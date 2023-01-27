@@ -16,7 +16,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Telegram Link : https://t.me/LazyDeveloper 
+Telegram Link : https://t.me/mrmalik_offl
 Repo Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT
 License Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT/blob/main/LICENSE
 """
@@ -37,18 +37,15 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 Hello Dude {user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!"
+    txt=f"👋 <b>Hello Nanba {user.mention} \n\nI am an Advance file Renamer BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!<\b>"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+        InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
+        InlineKeyboardButton('📢 Bot Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
         InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
-        ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/mrmalik_offl'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/mrmalikoffl')
         ]
         ])
     if START_PIC:
@@ -72,15 +69,15 @@ async def rename_start(client, message):
     fileid = file.file_id
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename"),
+                     InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.value)
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename"),
+                     InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
@@ -92,20 +89,13 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Dude {query.from_user.mention} \n\nI am an Advanced file Renamer and file Converter BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
+        InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
+        InlineKeyboardButton('📢 Bot Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
         InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
-        ],[
-        InlineKeyboardButton("🎬 Join My Official Channel 🎬", url='https://t.me/TN68_FilmFactory')
-        ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/@voiceofmalikoffl')
-        ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/mrmalik_offl'),
-        InlineKeyboardButton("📝Admin-Insta", url='https://instagram.com/mrmalikoffl')
         ]
         ]
                 )
@@ -115,9 +105,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Contact Admin ❣️", url="https://www.instagram.com/mrmalikoffl")
-               ],[
-               InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
+               InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl'),
+               InlineKeyboardButton("🎬 My Channel 🎬", url="https://t.me/TN68_FilmFactory")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -130,23 +119,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/mrmalikoffl")
-               ],[
-                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
-               ],[
-               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
-               ]]
-            )
-        )
-    elif data == "dev":
-        await query.message.edit_text(
-            text=mr.DEV_TXT,
-            reply_markup=InlineKeyboardMarkup( [[
-               #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ Developer ❣️", url="https://www.instagram.com/mrmalikoffl")
-               ],[
-                InlineKeyboardButton("🎬 Join My Official Channel 🎬", url="https://t.me/TN68_FilmFactory")
+               InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl'),
+                InlineKeyboardButton("🎬 My Channel 🎬", url="https://t.me/TN68_FilmFactory")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
