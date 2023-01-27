@@ -87,7 +87,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hello Dude {query.from_user.mention} \n\nI am an Advanced file Renamer and file Converter BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!""",
+            text=f"""<b>👋 Hello Nanba {query.from_user.mention} \n\nI am an Advanced file Renamer BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!<\b>""",
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl')
         ],[
