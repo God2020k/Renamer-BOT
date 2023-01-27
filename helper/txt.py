@@ -26,7 +26,7 @@ License Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT/blob/
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ Ms Renamer Pro X 🇮🇳... ❱━➣
+╭━━━━❰ Ms Renamer 2 GB 🇮🇳... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -36,14 +36,12 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 The Name is : {}
-├👑 ADMIN-TG : <a href=https://t.me/mrmalik_offl>Mr Malik</a> 
-├👑 Instagram : <a href=https://www.instagram.com/mrmalikoffl>C-Insta</a> 
+├👦 DEVELOPER : <a href=https://t.me/mrmalik_offl>Mr Malik</a>  
 ├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
 ├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁1 : <a href=https://apps.koyeb.com>Koyeb</a>
-├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁2 : <a href=https://dashboard.heroku.com>Heroku</a>
-├📊 BUILD-STATUS : Python v3.6.8               
+├📊 BUILD-STATUS : Python v3.10.8               
 ╰───────────────⍟
                                 """
     HELP_TXT = """
