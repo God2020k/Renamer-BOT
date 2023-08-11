@@ -37,15 +37,15 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 <b>Hello Nanba {user.mention} \n\nI am an Advance file Renamer BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!<\b>"
+    txt=f"👋 <b>Hello Nanba {user.mention} \n\nI am an Advance file Renamer BOT with permanent thumbnail and custom caption support"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl')
+        InlineKeyboardButton('⚡ Developer ⚡', url='https://t.me/ProfessorContact_bot')
         ],[
-        InlineKeyboardButton('📢 Bot Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
+        InlineKeyboardButton('🔰 Bot Updates 🔰', url='https://t.me/+hG6myXySoURlODY1'),
+        InlineKeyboardButton('🔰 Support 🔰', url='https://t.me/+hG6myXySoURlODY1')
         ],[
-        InlineKeyboardButton('⚡️ About', callback_data='about'),
-        InlineKeyboardButton('🤕 Help', callback_data='help')
+        InlineKeyboardButton('🔰 About 🔰', callback_data='about'),
+        InlineKeyboardButton('🔰 Help 🔰', callback_data='help')
         ]
         ])
     if START_PIC:
@@ -87,15 +87,15 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""<b>👋 Hello Nanba {query.from_user.mention} \n\nI am an Advanced file Renamer BOT with permanent thumbnail and custom caption support.\n\nSend me any video or document & See Magic!<\b>""",
+            text=f"""<b>👋 Hello Nanba {query.from_user.mention} \n\nI am an Advanced file Renamer BOT with permanent thumbnail and custom caption support""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl')
+        InlineKeyboardButton('⚡ Developer ⚡', url='https://t.me/ProfessorContact_bot')
         ],[
-        InlineKeyboardButton('📢 Bot Updates', url='https://t.me/+rN9QCFgIihgyZWM1'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/+rN9QCFgIihgyZWM1')
+        InlineKeyboardButton('🔰 Bot Updates 🔰', url='https://t.me/+hG6myXySoURlODY1'),
+        InlineKeyboardButton('🔰 Support 🔰', url='https://t.me/+hG6myXySoURlODY1')
         ],[
-        InlineKeyboardButton('⚡️ About', callback_data='about'),
-        InlineKeyboardButton('🤕 Help', callback_data='help')
+        InlineKeyboardButton('🔰 About 🔰', callback_data='about'),
+        InlineKeyboardButton('🔰 Help 🔰', callback_data='help')
         ]
         ]
                 )
@@ -105,8 +105,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl'),
-               InlineKeyboardButton("🎬 My Channel 🎬", url="https://t.me/TN68_FilmFactory")
+               InlineKeyboardButton('⚡ Developer ⚡', url='https://t.me/ProfessorContact_bot'),
+               InlineKeyboardButton("🔰 My Channel 🔰", url="https://t.me/+hG6myXySoURlODY1")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -119,8 +119,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton('👦 Developer 👦', url='https://t.me/mrmalik_offl'),
-                InlineKeyboardButton("🎬 My Channel 🎬", url="https://t.me/TN68_FilmFactory")
+               InlineKeyboardButton('⚡ Developer ⚡', url='https://t.me/ProfessorContact_bot'),
+                InlineKeyboardButton("🔰 My Channel 🔰", url="https://t.me/+hG6myXySoURlODY1")
                ],[
                InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
