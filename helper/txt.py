@@ -26,7 +26,7 @@ License Link : https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-BOT/blob/
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ Ms Renamer 2 GB 🇮🇳... ❱━➣
+╭━━━━❰ Professor Renamer 2 GB 🇮🇳... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -36,11 +36,11 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 The Name is : {}
-├👦 DEVELOPER : <a href=https://t.me/mrmalik_offl>Mr Malik</a>  
+├👦 DEVELOPER : <a href=https://t.me/ProfessorContact_bot>Professor</a>
 ├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁1 : <a href=https://apps.koyeb.com>Koyeb</a>
+├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁1 : <a href=https://www.heroku.com>Heroku</a>
 ├📊 BUILD-STATUS : Python v3.10.8               
 ╰───────────────⍟
                                 """
@@ -56,11 +56,4 @@ class mr(object):
 •> /see_caption - see your custom caption
 •> /del_caption - delete custom caption
 
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
-
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
-•> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://www.instagram.com/mrmalikoffl>Direct Message</a>
 """
